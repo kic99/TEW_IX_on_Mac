@@ -9,7 +9,7 @@ Everything goes in one folder, `~/tew9`. Run the commands in Terminal, in order.
 ## What you need
 
 - An Apple Silicon Mac with **Rosetta 2**. Check with `arch -x86_64 /usr/bin/true && echo ok`. If that fails, run `softwareupdate --install-rosetta --agree-to-license`.
-- **Homebrew**.
+- **Homebrew**. [Brew's website](https://brew.sh)
 - About 4 GB of free disk space.
 - The **TEW IX installer** (`.msi`) from Grey Dog Software, and your licence key.
 - The **`wow64cpu-rosetta-fix`** folder from `https://github.com/kic99/TEW_IX_on_Mac`. Either clone this locally, or go download the files manually.
