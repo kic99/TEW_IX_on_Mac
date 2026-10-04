@@ -204,7 +204,7 @@ winecfg       # Graphics tab > Screen resolution, e.g. 144 or 192
 | "Run-time error '5': Invalid procedure call or argument" | Start the game with `tew9.sh`, which runs it from its own folder. |
 | "Error 53" at start | .NET is missing. Rerun step 4.3, then reinstall the game (step 5). |
 | A winetricks download fails | Put the file in `~/.cache/winetricks/<verb>/` and rerun the command. |
-| Game window turns blank white after the Mac's display sleeps (game still running) | `. ~/tew9/tew-env.sh && "$TEW/wine-mac-redraw/redraw.sh"` repaints it without losing progress. To prevent it, keep the display awake while playing: `caffeinate -d ~/tew9/tew9.sh`. |
+| Game window turns blank white after the Mac's display sleeps (game still running) (not yet confirmed, but possibly sleep related)| `. ~/tew9/tew-env.sh && "$TEW/wine-mac-redraw/redraw.sh"` repaints it without losing progress. To prevent it, keep the display awake while playing: `caffeinate -d ~/tew9/tew9.sh`. |
 | Wine or the game won't quit | `. ~/tew9/tew-env.sh && wineserver -k` |
 
 ---
